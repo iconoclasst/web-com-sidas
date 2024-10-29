@@ -1,0 +1,109 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* border: 20px; */
+    /* margin: 10px; */
+    /* padding: 20px; */
+}
+
+.header a {
+    margin: 150px;
+    /* justify-content: center; */
+    font-size: x-large;
+    text-decoration: solid;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* color: rgba(0,0,0,0.7); */
+    /* text-shadow: 1px 1px 2px; */
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgba(16, 16, 137, 0.5); */
+    background-color: crimson;
+    border: 20%;
+    padding: 20px 0 20px 0;
+}
+
+.aula1 {
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.aula1 h1 {
+    padding: 20px;
+    border: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+.aula1 h2 {
+    font-size: 50px;
+    padding: 20px;
+    border: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+.aula1 img {
+    width: 600px;
+    height: 300px;
+}
+
+.termos div{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin: 3px;
+}
+
+.termos p {
+    /* font-weight: bold; */
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 400px 20px 400px;
+}
+
+
+.comunicacao div {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    background-color: rgb(259, 19, 99, 0.6);
+    
+}
+
+.comunicacao h2 {
+    font-size: 50px;
+    padding: 20px;
+    border: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+.comunicacao p {
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 400px 20px 400px;
+}
